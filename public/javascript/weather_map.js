@@ -35,23 +35,18 @@ async function get_weather_map(){
             });
             marker.bindPopup(text)
         } else {
-            const image = document.createElement('img')
-            
             const naam = `Name: ${item.my_name}.`
             const geo = `Location: ${item.lat.toFixed(2)}${'\xB0'} ${item.lon.toFixed(2)}${'\xB0'}.`
             const time = `Time: ${new Date(item.timestamp).toLocaleDateString()}.`
             const word = `Favorite word: ${item.my_favorite_word}.`
             const array_text = [naam, geo, time, word]
-            image.src = item.image64
 
             let text = ''
             array_text.forEach(element => {
                 text += `${element} `
             });
             text
-            
             marker.bindPopup(text)
-//            marker.bindPopup(image)
         }
     }
 }
