@@ -1,0 +1,7 @@
+.database_profile{
+    padding: 5px;
+    border: yellow solid 3px;
+    border-radius: 7px;
+    background-color: rgba(0,200,200,0.3);
+    display: inline-block;
+}

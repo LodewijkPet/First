@@ -1,0 +1,28 @@
+#iss_map { 
+    height: 400px; 
+    width: 400px;
+}
+
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+p{
+    padding: 5px;
+    border: yellow solid 3px;
+    border-radius: 7px;
+    background-color: rgba(200,200,0,0.3);
+}
+nav{
+    border: solid 3px lightblue;
+    border-radius: 5px;
+    background-color: rgba(0, 139, 139, 0.3);
+}
+nav > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px 10px;
+}
+a{
+    color:darkorange
+}
