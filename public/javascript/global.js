@@ -30,4 +30,4 @@ function present_air_quality(data) {
         eind_section.append(result_section)
     })
     return eind_section
-}C:\Users\lodew\websites\public
+}
